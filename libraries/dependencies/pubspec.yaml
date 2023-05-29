@@ -1,0 +1,63 @@
+name: dependencies
+description: A new Flutter package.
+version: 0.0.1
+publish_to: "none"
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  shimmer: ^2.0.0
+  cached_network_image: ^3.0.0
+  url_launcher: ^6.0.6
+  flutter_launcher_icons: ^0.9.0
+  youtube_player_flutter: ^8.0.0
+  flutter_svg: ^0.22.0
+  liquid_pull_to_refresh: ^3.0.0
+  carousel_slider: ^4.1.1
+  lottie: ^1.0.1
+  fluttertoast: ^8.0.7
+  animated_card: ^2.0.0
+
+  # Structure
+  flutter_triple: ^1.2.7+4
+  flutter_modular: ^5.0.3
+  # flutter_modular:
+  #   git:
+  #     url: https://github.com/Flutterando/modular
+  #     path: flutter_modular
+  #     ref: ade72425962fdcdc30044b6e95e13527e4b4e367
+
+  dartz: ^0.10.0-nullsafety.2
+
+  # Others
+  package_info_plus: ^4.0.0
+  feedback: ^2.5.0
+
+  # Firebase
+  firebase_performance: ^0.9.1+2
+  firebase_remote_config: ^3.0.9
+  firebase_crashlytics: ^3.0.11
+  firebase_analytics: ^10.1.0
+  firebase_storage: ^11.0.10
+
+  # Core
+  syncfusion_flutter_charts: ^21.2.6
+  flutter_windowmanager: ^0.2.0
+  shared_preferences: ^2.0.17
+  dio: ^5.1.2
+  connectivity: ^3.0.6
+  internet_connection_checker: ^1.0.0+1
+  logger: ^1.0.0
+  flutterando_analysis: ^0.0.2
+
+dev_dependencies:
+  dart_code_metrics: ^5.7.4
+  flutter_test:
+    sdk: flutter
+
+flutter:
